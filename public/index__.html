@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title></title>
+  </head>
+  <body>
+    <div id='globe'></div>
+    cenas
+    {{ data }}
+    <script>
+    // Where to put the globe?
+      var container = document.getElementById('globe');
+      // Make the globe
+      var globe = new DAT.Globe( container );
+      globe.addData( {{data}}, {format: 'magnitude', name: 'Node Events' });
+      // Create the geometry
+      globe.createPoints();
+      // Begin animation
+      globe.animate();
+    </script>
+  </body>
+</html>
