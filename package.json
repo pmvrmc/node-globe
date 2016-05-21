@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pmvrmc/node-globe#readme",
   "dependencies": {
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "tabletop": "^1.4.3"
   }
 }
