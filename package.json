@@ -1,0 +1,22 @@
+{
+  "name": "node-globe",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmvrmc/node-globe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmvrmc/node-globe/issues"
+  },
+  "homepage": "https://github.com/pmvrmc/node-globe#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
