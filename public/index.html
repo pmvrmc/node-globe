@@ -124,7 +124,7 @@
     } else {
       var container = document.getElementById('globe');
       var globe = new DAT.Globe(container);
-      var data = '{{data}}'.split(',').map((item) => { return parseInt(item, 10);})
+      var data = '{{data}}'.split(',').map((item) => { return parseFloat(item, 10);})
       globe.addData(data, {format: 'magnitude', name: 'Node Events' });
       globe.createPoints();
       globe.animate();
